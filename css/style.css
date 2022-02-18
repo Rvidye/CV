@@ -1,0 +1,180 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    color: #252A34;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    font-family: serif;
+}
+
+h1
+{
+    font-size: 562.5%;
+    line-height: 2;
+}
+
+a
+{
+    text-decoration: none;
+    color: #FF2E63;
+}
+
+p
+{
+    text-align: center;
+    font-family: serif;
+}
+
+hr
+{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+}
+
+.cursive_txt
+{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.cursive_txt:hover
+{
+    color: #FF2E63;
+}
+
+.center_header
+{
+    text-align: center;
+    color: #FF2E63;
+}
+
+div
+{
+    width: auto;
+    height: auto;
+    border: solid 3px;    
+}
+
+.top_container
+{
+    position:relative;
+    padding-top: 300px;
+    background-color: #08D9D6;
+    color: #FF2E63;
+}
+
+.middle_container
+{
+    position:relative; 
+    background-color: #252A34;
+    color: #08D9D6;
+}
+
+.bottom_container
+{
+    text-align: center;
+    padding: 25px 0 10px 0;
+    background-color: #08D9D6;
+    color: #FF2E63;
+} 
+
+.top_cloud
+{
+    position: absolute;
+    top : 30px;
+    right: 200px;
+}
+
+.bottom_cloud
+{
+    position: absolute;
+    bottom: 350px;
+    left: 200px;
+}
+
+.top_cloud1
+{
+    position: absolute;
+    top : 150px;
+    left: 500px;
+}
+
+.bottom_cloud1
+{
+    position: absolute;
+    bottom: 400px;
+    right: 250px;
+}
+
+.mountain
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profilepic
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-me
+{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.skill-row
+{
+    border: none;
+    padding: 5px;
+    margin: 5px auto 5px auto;
+    width: 50%;
+    line-height: 2;
+}
+
+.btn 
+{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #08D9D6;
+    font-size: 14px;
+    background: #252A34;
+    padding: 5px 10px 5px 10px;
+    margin: 0 auto 0 auto;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #FF2E63;
+    text-decoration: none;
+}
+
+.footer-link
+{
+    margin: 20px;
+    font-weight: bold;
+}
+
+.footer-link:hover
+{
+    color: #252A34;
+    margin: 20px;
+    font-weight: bold;
+}
+
+@keyframes cloud_anim {
+    0%  {top: 30px; right: 200px;}
+    100% {top:30px; left:100px;}
+}
